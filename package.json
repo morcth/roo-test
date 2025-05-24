@@ -17,7 +17,8 @@
     "verify:prod": "npm run build:prod && npm run test:e2e -- --config=playwright.config.ts",
     "test:prod": "TEST_ENV=true npm run build && TEST_ENV=true npm run preview & npm run test:e2e -- --config=playwright.production.config.ts",
     "build:validation": "vite build --mode=validation",
-    "test:validation": "npm run test:unit -- --testNamePattern=\"build validation\""
+    "test:validation": "npm run test:unit -- --testNamePattern=\"build validation\"",
+    "deploy": "netlify deploy --prod"
   },
   "dependencies": {
     "pinia": "^3.0.2",

@@ -19,6 +19,36 @@
    - Publish directory: `dist`
 4. Required secrets: None for public repos
 
+## Netlify CLI Deployment
+
+1. Install Netlify CLI globally:
+
+```sh
+npm install -g netlify-cli
+```
+
+2. Configure deployment in `netlify.toml`:
+
+```toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+```
+
+3. Add deployment script to `package.json`:
+
+```json
+"scripts": {
+  "deploy": "netlify deploy --prod"
+}
+```
+
+4. Run deployment:
+
+```sh
+npm run deploy
+```
+
 ## Initial Deployment Steps
 
 1. Initialize Git: `git init`
