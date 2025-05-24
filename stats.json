@@ -1,0 +1,906 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "assets/utils.VeVmGH6C.js",
+        "children": [
+          {
+            "name": "src/lib",
+            "children": [
+              {
+                "uid": "2661a4d9-1",
+                "name": "validation.ts"
+              },
+              {
+                "uid": "2661a4d9-3",
+                "name": "trie.ts"
+              },
+              {
+                "uid": "2661a4d9-5",
+                "name": "cache.ts"
+              },
+              {
+                "uid": "2661a4d9-7",
+                "name": "dependency-tracker.ts"
+              },
+              {
+                "uid": "2661a4d9-9",
+                "name": "permutation-engine.ts"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "assets/vendor.B0wXpPXE.js",
+        "children": [
+          {
+            "name": "node_modules",
+            "children": [
+              {
+                "name": "@vue",
+                "children": [
+                  {
+                    "name": "shared/dist/shared.esm-bundler.js",
+                    "uid": "2661a4d9-11"
+                  },
+                  {
+                    "name": "reactivity/dist/reactivity.esm-bundler.js",
+                    "uid": "2661a4d9-13"
+                  },
+                  {
+                    "name": "runtime-core/dist/runtime-core.esm-bundler.js",
+                    "uid": "2661a4d9-15"
+                  },
+                  {
+                    "name": "runtime-dom/dist/runtime-dom.esm-bundler.js",
+                    "uid": "2661a4d9-17"
+                  },
+                  {
+                    "name": "devtools-shared/dist/index.js",
+                    "uid": "2661a4d9-21"
+                  },
+                  {
+                    "name": "devtools-kit/dist/index.js",
+                    "uid": "2661a4d9-29"
+                  },
+                  {
+                    "name": "devtools-api/dist/index.js",
+                    "uid": "2661a4d9-31"
+                  }
+                ]
+              },
+              {
+                "name": "vue/dist/vue.runtime.esm-bundler.js",
+                "uid": "2661a4d9-19"
+              },
+              {
+                "name": "perfect-debounce/dist/index.mjs",
+                "uid": "2661a4d9-23"
+              },
+              {
+                "name": "hookable/dist/index.mjs",
+                "uid": "2661a4d9-25"
+              },
+              {
+                "name": "birpc/dist/index.mjs",
+                "uid": "2661a4d9-27"
+              },
+              {
+                "name": "pinia/dist/pinia.mjs",
+                "uid": "2661a4d9-33"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "assets/index.gKh766fq.js",
+        "children": [
+          {
+            "name": "\u0000vite/modulepreload-polyfill.js",
+            "uid": "2661a4d9-35"
+          },
+          {
+            "name": "src",
+            "children": [
+              {
+                "name": "stores/search.ts",
+                "uid": "2661a4d9-37"
+              },
+              {
+                "name": "components",
+                "children": [
+                  {
+                    "uid": "2661a4d9-39",
+                    "name": "SearchInput.vue?vue&type=script&setup=true&lang.ts"
+                  },
+                  {
+                    "uid": "2661a4d9-41",
+                    "name": "SearchInput.vue?vue&type=style&index=0&scoped=54e32457&lang.css"
+                  },
+                  {
+                    "uid": "2661a4d9-45",
+                    "name": "SearchInput.vue"
+                  },
+                  {
+                    "uid": "2661a4d9-47",
+                    "name": "SearchResults.vue?vue&type=script&setup=true&lang.ts"
+                  },
+                  {
+                    "uid": "2661a4d9-49",
+                    "name": "SearchResults.vue?vue&type=style&index=0&scoped=a73318e6&lang.css"
+                  },
+                  {
+                    "uid": "2661a4d9-51",
+                    "name": "SearchResults.vue"
+                  }
+                ]
+              },
+              {
+                "uid": "2661a4d9-53",
+                "name": "App.vue?vue&type=script&setup=true&lang.ts"
+              },
+              {
+                "uid": "2661a4d9-55",
+                "name": "App.vue"
+              },
+              {
+                "uid": "2661a4d9-57",
+                "name": "main.ts"
+              }
+            ]
+          },
+          {
+            "uid": "2661a4d9-43",
+            "name": "\u0000plugin-vue:export-helper"
+          },
+          {
+            "uid": "2661a4d9-59",
+            "name": "index.html"
+          }
+        ]
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "2661a4d9-1": {
+      "renderedLength": 432,
+      "gzipLength": 235,
+      "brotliLength": 183,
+      "metaUid": "2661a4d9-0"
+    },
+    "2661a4d9-3": {
+      "renderedLength": 2992,
+      "gzipLength": 960,
+      "brotliLength": 819,
+      "metaUid": "2661a4d9-2"
+    },
+    "2661a4d9-5": {
+      "renderedLength": 1190,
+      "gzipLength": 428,
+      "brotliLength": 383,
+      "metaUid": "2661a4d9-4"
+    },
+    "2661a4d9-7": {
+      "renderedLength": 391,
+      "gzipLength": 246,
+      "brotliLength": 209,
+      "metaUid": "2661a4d9-6"
+    },
+    "2661a4d9-9": {
+      "renderedLength": 1622,
+      "gzipLength": 681,
+      "brotliLength": 570,
+      "metaUid": "2661a4d9-8"
+    },
+    "2661a4d9-11": {
+      "renderedLength": 8332,
+      "gzipLength": 3293,
+      "brotliLength": 2932,
+      "metaUid": "2661a4d9-10"
+    },
+    "2661a4d9-13": {
+      "renderedLength": 45656,
+      "gzipLength": 10432,
+      "brotliLength": 9223,
+      "metaUid": "2661a4d9-12"
+    },
+    "2661a4d9-15": {
+      "renderedLength": 167713,
+      "gzipLength": 39785,
+      "brotliLength": 33683,
+      "metaUid": "2661a4d9-14"
+    },
+    "2661a4d9-17": {
+      "renderedLength": 26414,
+      "gzipLength": 7635,
+      "brotliLength": 6736,
+      "metaUid": "2661a4d9-16"
+    },
+    "2661a4d9-19": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-18"
+    },
+    "2661a4d9-21": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-20"
+    },
+    "2661a4d9-23": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-22"
+    },
+    "2661a4d9-25": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-24"
+    },
+    "2661a4d9-27": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-26"
+    },
+    "2661a4d9-29": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-28"
+    },
+    "2661a4d9-31": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-30"
+    },
+    "2661a4d9-33": {
+      "renderedLength": 15924,
+      "gzipLength": 4539,
+      "brotliLength": 4017,
+      "metaUid": "2661a4d9-32"
+    },
+    "2661a4d9-35": {
+      "renderedLength": 1280,
+      "gzipLength": 537,
+      "brotliLength": 454,
+      "metaUid": "2661a4d9-34"
+    },
+    "2661a4d9-37": {
+      "renderedLength": 250,
+      "gzipLength": 165,
+      "brotliLength": 132,
+      "metaUid": "2661a4d9-36"
+    },
+    "2661a4d9-39": {
+      "renderedLength": 1306,
+      "gzipLength": 549,
+      "brotliLength": 469,
+      "metaUid": "2661a4d9-38"
+    },
+    "2661a4d9-41": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-40"
+    },
+    "2661a4d9-43": {
+      "renderedLength": 159,
+      "gzipLength": 136,
+      "brotliLength": 120,
+      "metaUid": "2661a4d9-42"
+    },
+    "2661a4d9-45": {
+      "renderedLength": 1679,
+      "gzipLength": 789,
+      "brotliLength": 679,
+      "metaUid": "2661a4d9-44"
+    },
+    "2661a4d9-47": {
+      "renderedLength": 1208,
+      "gzipLength": 501,
+      "brotliLength": 423,
+      "metaUid": "2661a4d9-46"
+    },
+    "2661a4d9-49": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-48"
+    },
+    "2661a4d9-51": {
+      "renderedLength": 3009,
+      "gzipLength": 1052,
+      "brotliLength": 915,
+      "metaUid": "2661a4d9-50"
+    },
+    "2661a4d9-53": {
+      "renderedLength": 948,
+      "gzipLength": 425,
+      "brotliLength": 351,
+      "metaUid": "2661a4d9-52"
+    },
+    "2661a4d9-55": {
+      "renderedLength": 925,
+      "gzipLength": 502,
+      "brotliLength": 433,
+      "metaUid": "2661a4d9-54"
+    },
+    "2661a4d9-57": {
+      "renderedLength": 682,
+      "gzipLength": 379,
+      "brotliLength": 312,
+      "metaUid": "2661a4d9-56"
+    },
+    "2661a4d9-59": {
+      "renderedLength": 0,
+      "gzipLength": 0,
+      "brotliLength": 0,
+      "metaUid": "2661a4d9-58"
+    }
+  },
+  "nodeMetas": {
+    "2661a4d9-0": {
+      "id": "/src/lib/validation.ts",
+      "moduleParts": {
+        "assets/utils.VeVmGH6C.js": "2661a4d9-1"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-38"
+        }
+      ]
+    },
+    "2661a4d9-2": {
+      "id": "/src/lib/trie.ts",
+      "moduleParts": {
+        "assets/utils.VeVmGH6C.js": "2661a4d9-3"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-56"
+        },
+        {
+          "uid": "2661a4d9-8"
+        }
+      ]
+    },
+    "2661a4d9-4": {
+      "id": "/src/lib/cache.ts",
+      "moduleParts": {
+        "assets/utils.VeVmGH6C.js": "2661a4d9-5"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-8"
+        }
+      ]
+    },
+    "2661a4d9-6": {
+      "id": "/src/lib/dependency-tracker.ts",
+      "moduleParts": {
+        "assets/utils.VeVmGH6C.js": "2661a4d9-7"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-8"
+        }
+      ]
+    },
+    "2661a4d9-8": {
+      "id": "/src/lib/permutation-engine.ts",
+      "moduleParts": {
+        "assets/utils.VeVmGH6C.js": "2661a4d9-9"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-2"
+        },
+        {
+          "uid": "2661a4d9-4"
+        },
+        {
+          "uid": "2661a4d9-6"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-52"
+        }
+      ]
+    },
+    "2661a4d9-10": {
+      "id": "/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-11"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-16"
+        },
+        {
+          "uid": "2661a4d9-14"
+        },
+        {
+          "uid": "2661a4d9-12"
+        }
+      ]
+    },
+    "2661a4d9-12": {
+      "id": "/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-13"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-10"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-14"
+        }
+      ]
+    },
+    "2661a4d9-14": {
+      "id": "/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-15"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-12"
+        },
+        {
+          "uid": "2661a4d9-10"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-16"
+        }
+      ]
+    },
+    "2661a4d9-16": {
+      "id": "/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-17"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-14"
+        },
+        {
+          "uid": "2661a4d9-10"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-18"
+        }
+      ]
+    },
+    "2661a4d9-18": {
+      "id": "/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-19"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-16"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-56"
+        },
+        {
+          "uid": "2661a4d9-32"
+        },
+        {
+          "uid": "2661a4d9-54"
+        },
+        {
+          "uid": "2661a4d9-52"
+        },
+        {
+          "uid": "2661a4d9-44"
+        },
+        {
+          "uid": "2661a4d9-50"
+        },
+        {
+          "uid": "2661a4d9-38"
+        },
+        {
+          "uid": "2661a4d9-46"
+        }
+      ]
+    },
+    "2661a4d9-20": {
+      "id": "/node_modules/@vue/devtools-shared/dist/index.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-21"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-28"
+        }
+      ]
+    },
+    "2661a4d9-22": {
+      "id": "/node_modules/perfect-debounce/dist/index.mjs",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-23"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-28"
+        }
+      ]
+    },
+    "2661a4d9-24": {
+      "id": "/node_modules/hookable/dist/index.mjs",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-25"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-28"
+        }
+      ]
+    },
+    "2661a4d9-26": {
+      "id": "/node_modules/birpc/dist/index.mjs",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-27"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-28"
+        }
+      ]
+    },
+    "2661a4d9-28": {
+      "id": "/node_modules/@vue/devtools-kit/dist/index.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-29"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-20"
+        },
+        {
+          "uid": "2661a4d9-22"
+        },
+        {
+          "uid": "2661a4d9-24"
+        },
+        {
+          "uid": "2661a4d9-26"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-30"
+        }
+      ]
+    },
+    "2661a4d9-30": {
+      "id": "/node_modules/@vue/devtools-api/dist/index.js",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-31"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-28"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-32"
+        }
+      ]
+    },
+    "2661a4d9-32": {
+      "id": "/node_modules/pinia/dist/pinia.mjs",
+      "moduleParts": {
+        "assets/vendor.B0wXpPXE.js": "2661a4d9-33"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-56"
+        },
+        {
+          "uid": "2661a4d9-36"
+        }
+      ]
+    },
+    "2661a4d9-34": {
+      "id": "\u0000vite/modulepreload-polyfill.js",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-35"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-58"
+        }
+      ]
+    },
+    "2661a4d9-36": {
+      "id": "/src/stores/search.ts",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-37"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-32"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-38"
+        },
+        {
+          "uid": "2661a4d9-46"
+        }
+      ]
+    },
+    "2661a4d9-38": {
+      "id": "/src/components/SearchInput.vue?vue&type=script&setup=true&lang.ts",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-39"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-36"
+        },
+        {
+          "uid": "2661a4d9-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-44"
+        }
+      ]
+    },
+    "2661a4d9-40": {
+      "id": "/src/components/SearchInput.vue?vue&type=style&index=0&scoped=54e32457&lang.css",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-41"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-44"
+        }
+      ]
+    },
+    "2661a4d9-42": {
+      "id": "\u0000plugin-vue:export-helper",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-43"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-54"
+        },
+        {
+          "uid": "2661a4d9-44"
+        },
+        {
+          "uid": "2661a4d9-50"
+        }
+      ]
+    },
+    "2661a4d9-44": {
+      "id": "/src/components/SearchInput.vue",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-45"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-38"
+        },
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-40"
+        },
+        {
+          "uid": "2661a4d9-42"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-52"
+        }
+      ]
+    },
+    "2661a4d9-46": {
+      "id": "/src/components/SearchResults.vue?vue&type=script&setup=true&lang.ts",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-47"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-36"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-50"
+        }
+      ]
+    },
+    "2661a4d9-48": {
+      "id": "/src/components/SearchResults.vue?vue&type=style&index=0&scoped=a73318e6&lang.css",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-49"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-50"
+        }
+      ]
+    },
+    "2661a4d9-50": {
+      "id": "/src/components/SearchResults.vue",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-51"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-46"
+        },
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-48"
+        },
+        {
+          "uid": "2661a4d9-42"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-52"
+        }
+      ]
+    },
+    "2661a4d9-52": {
+      "id": "/src/App.vue?vue&type=script&setup=true&lang.ts",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-53"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-44"
+        },
+        {
+          "uid": "2661a4d9-50"
+        },
+        {
+          "uid": "2661a4d9-8"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-54"
+        }
+      ]
+    },
+    "2661a4d9-54": {
+      "id": "/src/App.vue",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-55"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-52"
+        },
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-42"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-56"
+        }
+      ]
+    },
+    "2661a4d9-56": {
+      "id": "/src/main.ts",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-57"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-18"
+        },
+        {
+          "uid": "2661a4d9-32"
+        },
+        {
+          "uid": "2661a4d9-54"
+        },
+        {
+          "uid": "2661a4d9-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2661a4d9-58"
+        }
+      ]
+    },
+    "2661a4d9-58": {
+      "id": "/index.html",
+      "moduleParts": {
+        "assets/index.gKh766fq.js": "2661a4d9-59"
+      },
+      "imported": [
+        {
+          "uid": "2661a4d9-34"
+        },
+        {
+          "uid": "2661a4d9-56"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    }
+  },
+  "env": {
+    "rollup": "4.40.2"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": true,
+    "sourcemap": false
+  }
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "id": 1,
+    "title": "Implement Trie class with insert() method",
+    "definition_of_done": "Trie structure passes insertion tests; 100% code coverage; Code review completed (references docs/project-brief.md sections 2.1.1 data structures and 2.2.3 validation requirements)",
+    "documentation": "docs/api/trie.md"
+  },
+  {
+    "id": 2,
+    "title": "Implement Trie search() method",
+    "definition_of_done": "Search functionality passes all test cases; 100% branch coverage; Code review completed (references docs/project-brief.md section 2.2.1 search requirements)",
+    "documentation": "docs/api/trie.md#search-method"
+  },
+  {
+    "id": 3,
+    "title": "Implement prefix search functionality",
+    "definition_of_done": "Prefix matching implemented with test coverage; Performance benchmarks documented; Code review completed",
+    "documentation": "docs/api/trie.md#prefix-search"
+  },
+  {
+    "id": 4,
+    "title": "Implement Trie delete() method",
+    "definition_of_done": "Deletion functionality passes all test cases; 100% branch coverage; Code review completed (references docs/project-brief.md section 2.2.2)",
+    "documentation": "docs/api/trie.md#delete-method"
+  },
+  {
+    "id": 5,
+    "title": "Add performance benchmarking",
+    "definition_of_done": "Benchmark tests for insert/search/delete operations; Performance metrics documented; Code review completed",
+    "documentation": "docs/api/trie.md#performance"
+  },
+  {
+    "id": 6,
+    "title": "Implement dictionary loader service",
+    "definition_of_done": "Load public/dictionary.json into Trie; Validation error handling; 100% test coverage; Code review completed",
+    "documentation": "docs/project-brief.md#dictionary-loader"
+  },
+  {
+    "id": 7,
+    "title": "Implement search results pagination",
+    "definition_of_done": "Pagination controls added to SearchResults.vue; Unit tests for page navigation; Accessibility tests passed; Code review completed",
+    "documentation": "src/components/SearchResults.vue"
+  },
+  {
+    "id": 8,
+    "title": "Implement CI performance tracking",
+    "definition_of_done": "GitHub Actions workflow runs benchmarks; Performance history stored; Threshold alerts configured; Code review completed",
+    "documentation": "docs/project-brief.md#test-infrastructure"
+  },
+  {
+    "id": 9,
+    "title": "Implement search input markup",
+    "definition_of_done": "Vue component scaffolded with input field; Accessibility tests passed; Code review completed",
+    "documentation": "docs/project-brief.md#search-interface"
+  },
+  {
+    "id": 10,
+    "title": "Wire search input to Trie state",
+    "definition_of_done": "Real-time search updates implemented; Unit tests for state management; Code review completed",
+    "documentation": "docs/project-brief.md#search-interface"
+  },
+  {
+    "id": 11,
+    "title": "Style search results container",
+    "definition_of_done": "Main container layout styling; Viewport sizing tests; Accessibility color contrast verified; Code review completed",
+    "documentation": "docs/project-brief.md#search-interface-container"
+  },
+  {
+    "id": 12,
+    "title": "Implement search results list component",
+    "definition_of_done": "Vue component created with semantic HTML structure; Accessibility tests passed; Code review completed",
+    "documentation": "docs/project-brief.md#search-results"
+  },
+  {
+    "id": 13,
+    "title": "Wire results list to search state",
+    "definition_of_done": "Real-time results updates from Trie; Vuex store integration tested; Performance metrics recorded",
+    "documentation": "docs/project-brief.md#search-results"
+  },
+  {
+    "id": 14,
+    "title": "Style search results list",
+    "definition_of_done": "CSS modules implemented; Cross-browser testing passed; Visual regression tests added",
+    "documentation": "docs/project-brief.md#search-results"
+  },
+  {
+    "id": 15,
+    "title": "Implement word matching algorithm core",
+    "definition_of_done": "Finds all embedded words ≥3 letters; Unit tests for edge cases; 100% code coverage; Code review completed (references docs/project-brief.md section 2.2.1)",
+    "documentation": "docs/project-brief.md#word-matching-service"
+  },
+  {
+    "id": 16,
+    "title": "Add performance optimizations to word matcher",
+    "definition_of_done": "Memoization implemented; Benchmarks show 20% improvement; Integration tests added; Code review completed",
+    "documentation": "docs/api/performance.md"
+  },
+  {
+    "id": 17,
+    "title": "Wire word matcher to UI state",
+    "definition_of_done": "Vuex store integration; Loading states implemented; E2E tests passing; Code review completed",
+    "documentation": "docs/project-brief.md#core-ui-components"
+  },
+  {
+    "id": 18,
+    "title": "Implement permutation generation engine",
+    "definition_of_done": "generatePermutations() method added to Trie; Unit tests covering all edge cases; 100% code coverage; Code review completed (references docs/project-brief.md section 2.2.1)",
+    "documentation": "docs/api/trie.md#permutation-generation"
+  },
+  {
+    "id": 19,
+    "title": "Integrate permutation engine with Vue components",
+    "definition_of_done": "Real-time search binding in SearchInput.vue; Results rendering in SearchResults.vue; E2E tests for UI updates; Code review completed",
+    "documentation": "docs/project-brief.md#component-integration"
+  },
+  {
+    "id": 20,
+    "title": "Implement dictionary preprocessing pipeline",
+    "definition_of_done": "preprocessDictionary() method with normalization/filtering; 20% performance improvement measured; Unit tests covering edge cases; Integration tests with Trie and memoization; Documentation updated in performance.md; Code review completed",
+    "documentation": "docs/api/performance.md#preprocessing",
+    "testFile": "src/__tests__/dictionary.test.ts"
+  },
+  {
+    "id": 21,
+    "title": "Add LRU caching layer for search results",
+    "definition_of_done": "Cache module implemented in src/lib/cache.ts; Cache invalidation tests; 30% reduction in Trie searches measured; Code review completed",
+    "documentation": "docs/api/performance.md#caching"
+  },
+  {
+    "id": 22,
+    "title": "Implement E2E word matching scenarios",
+    "definition_of_done": "Playwright tests covering permutation scenarios; CI pipeline integration; 100% user journey coverage; Code review completed",
+    "documentation": "e2e/trie.spec.ts"
+  },
+  {
+    "id": 23,
+    "title": "Implement build configuration validation",
+    "definition_of_done": "Vite config verifies tree-shaking; Bundle analyzer added; Zero ESLint exceptions; Code review completed",
+    "documentation": "docs/project-brief.md#build-configuration"
+  },
+  {
+    "id": 24,
+    "title": "Add production build optimizations",
+    "definition_of_done": "SSG configuration implemented; CI/CD pipeline tests added; Code review completed",
+    "documentation": "docs/project-brief.md#build-configuration"
+  },
+  {
+    "id": 25,
+    "title": "Implement dependency tracking",
+    "definition_of_done": "Import cost analysis in PR checks; Circular dependency warnings; 100% test coverage; Code review completed",
+    "documentation": "docs/project-brief.md#build-configuration"
+  },
+  {
+    "id": 26,
+    "title": "Implement input validation rules",
+    "definition_of_done": "ValidationService class created with length/special char checks; Unit tests covering edge cases; 100% code coverage; Code review completed",
+    "documentation": "docs/project-brief.md#input-validation"
+  },
+  {
+    "id": 27,
+    "title": "Create input sanitization service",
+    "definition_of_done": "Sanitization methods for different input types; Integration tests with Trie; Performance benchmarks; Code review completed",
+    "documentation": "docs/project-brief.md#input-validation"
+  },
+  {
+    "id": 28,
+    "title": "Wire validation to search components",
+    "definition_of_done": "SearchInput.vue shows validation errors; E2E tests for invalid states; Accessibility audits passed; Code review completed",
+    "documentation": "src/components/SearchInput.vue"
+  },
+  {
+    "id": 29,
+    "title": "Configure production environment",
+    "definition_of_done": "Environment variables validated; Security headers configured; Performance budget enforced; Code review completed",
+    "documentation": "docs/project-brief.md#build-configuration"
+  },
+  {
+    "id": 30,
+    "title": "Implement production monitoring",
+    "definition_of_done": "Error tracking integrated; Performance metrics dashboard; Alerting rules configured; Code review completed",
+    "documentation": "docs/project-brief.md#test-infrastructure"
+  }
+]
