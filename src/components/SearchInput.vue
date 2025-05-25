@@ -11,7 +11,24 @@ const emit = defineEmits<{
 const store = useSearchStore()
 const isInvalid = ref(false)
 const errorMessage = ref('')
-function handleInput() {
+function handleInput(event: Event) {
+  console.log('Input event:', event.type, 'Value:', searchQuery.value)
+  processInput()
+}
+
+function handleComposition(event: CompositionEvent) {
+  console.log('Composition event:', event.type, 'Value:', searchQuery.value)
+  if (event.type === 'compositionend') {
+    processInput()
+  }
+}
+
+function handleChange() {
+  console.log('Change event. Value:', searchQuery.value)
+  processInput()
+}
+
+function processInput() {
   const value = searchQuery.value
   if (!value) {
     isInvalid.value = false
@@ -42,6 +59,9 @@ function handleInput() {
       type="text"
       v-model="searchQuery"
       @input="handleInput"
+      @compositionstart="handleComposition"
+      @compositionend="handleComposition"
+      @change="handleChange"
       aria-label="Search"
       :aria-invalid="isInvalid"
       :aria-describedby="isInvalid ? 'error-message' : undefined"

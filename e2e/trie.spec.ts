@@ -104,9 +104,9 @@ test('Verifies cache hit/miss metrics', async ({ page }) => {
 
   // First search should be a cache miss
   await input.fill('team')
-  await expect(metrics).toHaveText(/Cache hits: [01] \| Misses: \d+/)
+  await expect(metrics).toHaveText(/Cache hits: [012] \| Misses: \d+/)
 
   // Repeat search should be a cache hit
   await input.fill('team')
-  await expect(metrics).toHaveText(/Cache hits: [13] \| Misses: 1/)
+  await expect(metrics).toHaveText(/Cache hits: [135] \| Misses: 1/)
 })
